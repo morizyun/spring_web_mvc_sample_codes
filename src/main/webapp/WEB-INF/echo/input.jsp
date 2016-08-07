@@ -8,6 +8,7 @@
     <div>Please fill text :</div>
     <div>
         <form:input path="text" />
+        <form:errors path="text" />
     </div>
     <div>
         <form:button>Send</form:button>
